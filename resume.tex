@@ -1,0 +1,109 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[black]{classic}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+
+\firstname{Mike}
+\familyname{\mbox{Orlov}}
+\email{pmapcat@gmail.com}
+\social[linkedin]{pmapcat}
+\social[github]{pmapcat}
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+\renewcommand{\labelitemi}{$\circ$}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace*{-1cm}
+
+\section{\textsc{Professional Experience}}
+%    \cventry{years}{degree/job title}{institution/employer}{localization}{grade}{description}
+		\cventry{May. 2019 - present}{Backend dev}{Kasta.ua}{Kyiv, Ukraine}{}{
+		  {\footnotesize
+			  \begin{itemize}
+			  \item Developed and owned product upload and validation. As per public info, we've had over two million products and over 11 million users.
+                          \item Designed, implemented, and documented public-facing API.
+                          \item Worked with business, QA, frontend, and cross-team to deliver significant features.
+                          \item Refactored and optimized existing code, resolved support issues, and fixed bugs. Helped with feature design, onboarding, and code reviews. 
+                          \item Tech: PostgreSQL; SQL;  Clojure; ClojureScript; React; Rum; JavaScript; APIs; Unix tools; Excel; Apache POI; Jira; Frontend; Backend; Fullstack; Emacs; Git; Gitlab; Sentry; Kibana; Grafana; Kafka; Queues; Elastic; Confluence; s3
+			  \end{itemize}
+			}
+		}
+		\cventry{Apr. 2018 - Mar. 2019}{Software dev}{Contract work}{}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Made an antique book management platform with integrations with several marketplaces, a shipping calculator, and a website for a recruiting agency.
+                                \item Tech: Rest Api; XML Api; SQLite3; Python; DRF; Django Admin; Clojure; Digital Ocean; PureCSS; HTML; CSS; JS  
+				\end{itemize}
+			}
+		}
+		\cventry{April. 2016 - April. 2018}{Fullstack dev}{Bookline}{Jerusalem, Israel (Remote)}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Worked for a company in Jerusalem doing in-house, public-facing, and some outsource work.
+                                \item Made a time tracker SPA website, a landing page constructor, an antique book exchange website, and a generator of static wiki pages.
+                                \item Did data scraping, cleaning, linking, and transforming to prepare for ingestion by other systems.
+                                \item Helped with hiring and onboarding.
+                                \item Tech: Go; Golang; POS Tagger; Viterbi; SMT Moses; TFIDF; SQLite3; Go Json Rest; Clojure; Lucene; SPA; ClojureScript; React; Elastic; MaterializeCSS; Django Admin; HoneySQL; API; MediaWiki  
+				\end{itemize}
+			}
+		}
+		\cventry{Nov. 2015 - Feb. 2016}{Fullstack dev}{Contract work}{}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Made a book store web site with integrations with an external payment system and several online marketplaces; A landing for a car wash in Israel; A landing page for a shop selling antique engravings;
+                                \item Tech: Go; Golang; MySQL; Express; DigitalOcean; MaterializeCSS; JavaScript; Bootstrap; CSS; Python; PyQML; JS; JQuery; React; CoffeeScript; TypeScript; ClojureScript  
+				\end{itemize}
+			}
+		}
+		\cventry{Apr. 2013 - July. 2013}{Backend dev}{Rarebooks.ru}{}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Migrated the backend and the data from legacy PHP platform to Python Django with Haystack (using Elastic) and MySQL. Made an integration with online marketlace.
+				\end{itemize}
+			}
+		}
+		\cventry{Jun. 2012 - Dec. 2015}{Techical Co-founder (part time)}{}{}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Worked on a video editing and tagging platform together with a non-technical co-founder.	
+				\end{itemize}
+			}
+		}
+
+\section{\textsc{Other Personal Projects}}
+		\cvitem{\textbullet}{Writing and OSS}
+		\vspace*{-0.15cm}
+		\cvitem{}{
+			{\footnotesize 
+				\begin{itemize}
+                                \item 2019, Wrote on Quora about Programming, Web Dev, Languages, Python, JS. Answers reached \textbf{2.3 million} people {\color{see} \href{https://www.quora.com/profile/Michael-6688}{link}}
+                                \item 2018, A small CSS framework that is inspired by the R.P. Williams's book {\color{see} \href{https://github.com/MichaelLeachim/wireframecss}{link}}
+                                \item 2016, Unsupervised extraction of tabular data from HTML {\color{see} \href{https://github.com/MichaelLeachim/uhebom}{link}}
+                                \item 2015, Pomodoro CLI app in Python {\color{see} \href{https://github.com/MichaelLeachim/pomodorro-cli}{link}}	
+				\end{itemize}
+			}
+		}
+		\vspace*{-0.5cm}
+
+\section{\textsc{Education}}
+%    \cventry{years}{degree/job title}{institution/employer}{localization}{grade}{description}
+\cventry{2014}{BSc Economics}{Russian Technological University (MIREA)}{}{}{}
+
+\end{document}
+%% end of file `page.tex'.
