@@ -1,4 +1,4 @@
-.PHONY: emit
+.PHONY: emit build
 SHELL := '/bin/bash'
 
 build:
