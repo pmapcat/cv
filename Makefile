@@ -6,6 +6,7 @@ build:
 
 emit:
 	pdflatex resume.tex
+	mv resume.pdf orlovm.pdf
 	rm resume.out
 	rm resume.aux
 	rm resume.log
